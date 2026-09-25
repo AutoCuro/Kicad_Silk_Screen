@@ -39,6 +39,30 @@ This is an open-source project developed by **AutoCuro**. See [LICENSE](LICENSE)
   Fab layers are hidden in its project settings so the silkscreen is easy to
   review.
 
+## Examples
+
+Two boards, each shown before and after a run.
+
+### Flight controller
+
+The board as routed, with no reference designators on the silkscreen, and the
+same board after a run. Labels sit beside their parts, in the gaps between
+tracks and pads.
+
+| Before | After |
+|---|---|
+| <img src="docs/images/mainboard_before.png" alt="Flight controller before: no reference designators on the silkscreen" width="420"> | <img src="docs/images/mainboard_after.png" alt="Flight controller after: reference designators placed beside their parts" width="420"> |
+
+### Module board
+
+Here the board already carried reference designators, several of them
+overlapping pads or their neighbours. After a run they are spaced out, and a
+few that had no room next to their part are set back with a connector line.
+
+| Before | After |
+|---|---|
+| <img src="docs/images/module_before.png" alt="Module board before: reference designators overlapping pads and each other" width="260"> | <img src="docs/images/module_after.png" alt="Module board after: reference designators spaced out, some with connector lines" width="260"> |
+
 ## Repository contents
 
 | File | Runs under | Purpose |
